@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#00f"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment2页面"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+
+    <Button
+            android:id="@+id/btn_getMyActivityData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取MyActivity中的数据"
+            />
+    <Button
+            android:id="@+id/btn_getFragment1Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取Fragment1中的数据"
+            />
+
+    <Button
+            android:id="@+id/btn_changeMyActivityData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="改变Activity显示的数据"
+            />
+    <Button
+            android:id="@+id/btn_changeFragment1Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="改变Fragment1显示的数据"
+            />
+
+    <TextView
+            android:id="@+id/tv_fragment2_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示数据"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+</LinearLayout>
+

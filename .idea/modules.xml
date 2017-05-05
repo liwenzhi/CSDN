@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSDN.iml" filepath="$PROJECT_DIR$/CSDN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calendar/Calendar.iml" filepath="$PROJECT_DIR$/Calendar/Calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DropDownMenu/DropDownMenu.iml" filepath="$PROJECT_DIR$/DropDownMenu/DropDownMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpanableListView/ExpanableListView.iml" filepath="$PROJECT_DIR$/ExpanableListView/ExpanableListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentDemo/FragmentDemo.iml" filepath="$PROJECT_DIR$/FragmentDemo/FragmentDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NavigationDemo/NavigationDemo.iml" filepath="$PROJECT_DIR$/NavigationDemo/NavigationDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleSwipe/SimpleSwipe.iml" filepath="$PROJECT_DIR$/SimpleSwipe/SimpleSwipe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeBack/SwipeBack.iml" filepath="$PROJECT_DIR$/SwipeBack/SwipeBack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeMenuListView/SwipeMenuListView.iml" filepath="$PROJECT_DIR$/SwipeMenuListView/SwipeMenuListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commentDemo/commentDemo.iml" filepath="$PROJECT_DIR$/commentDemo/commentDemo.iml" />
+    </modules>
+  </component>
+</project>
+

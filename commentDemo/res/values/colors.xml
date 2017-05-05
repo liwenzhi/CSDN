@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="top_bar_normal_bg">#ec7f1a</color>
+
+    <color name="bg_normal_gray">#d0d0e0</color>
+
+    <color name="orange_main">#ec6f1b</color>
+    <color name="orange_light">#ffd29b</color>
+    <color name="orange_deep">#ff6f1a</color>
+    <color name="orange_most">#C76144</color>
+    <color name="orange_litter">#80aa6236</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <com.example.comment.widget.NormalTitleBar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleBarLeftImage="@drawable/icon_title_back"
+            app:titleBarTitle="点评模板"
+            />
+
+    <EditText
+            android:id="@+id/input_conclusion"
+            android:background="#ff0"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:hint="@string/input_conclusion"
+            />
+
+
+    <TextView
+            android:id="@+id/common_template"
+            android:background="@drawable/btn_orange_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/common_template"
+            android:layout_margin="10dp"
+            android:layout_gravity="right"
+            android:textColor="#fff"
+            android:clickable="true"
+            />
+</LinearLayout>
+

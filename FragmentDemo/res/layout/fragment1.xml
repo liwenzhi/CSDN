@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--设计思想：一个可水平滑动的ScrollView，里面放一个水平方向的线性布局-->
+<!--这个线性布局里面又有两个布局（或控件）-->
+<com.example.FragmentDemo.QQSliddingMenu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:drakeet="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/qqsm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_frame_background"
+        drakeet:rigthtPadding="160dp">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <!--如果要改变左边的菜单，修改left_menu.xml-->
+        <include layout="@layout/left_menu"/>
+        <!--如果要改变显示的主页面，修改下面，可以给成Fragment放碎片哦-->
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ff0"
+                >
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fragment1页面"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    />
+            <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:dividerHeight="1dp"
+                    android:divider="#f00"
+                    />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</com.example.FragmentDemo.QQSliddingMenu>

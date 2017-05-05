@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">commentDemo</string>
+
+    <string name="input_conclusion">请输入诊断结论</string>
+    <string name="diagnosis_conclusion">诊断结论</string>
+    <string name="common_template">检查结论常用语模板</string>
+    <string name="no_templet">模板数据为空</string>
+    <string name="templet_list">检查结论常用语</string>
+    <string name="templet_class_choose">选择</string>
+    <string name="plase_add_templet_class">组名</string>
+    <string name="plase_add_templet_text">检查评语</string>
+    <string name="doctor_signature">医生签名：xxx</string>
+
+</resources>

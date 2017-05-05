@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseStyle" parent="android:Theme.Holo.Light">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleSize">25dip</item>
+
+    </style>
+
+
+</resources>
